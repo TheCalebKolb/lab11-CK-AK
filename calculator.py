@@ -9,7 +9,7 @@ def add(a, b):
     return a + b
 
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
 
@@ -23,13 +23,13 @@ def div(a, b):
     return b / a
 
 
-def log(a, b):
+def logarithm(a, b):
     if a <= 0 or a == 1 or b <= 0:
         raise ValueError("Logarithm requires a positive base other than 1 and a positive argument.")
     return math.log(b, a)
 
 
-def exp(a, b):
+def exponent(a, b):
     return a ** b
 
 def square_root(a):
