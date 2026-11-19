@@ -13,8 +13,16 @@ def subtract(a, b):
     return a - b
 
 
+def sub(a, b):
+    return subtract(a, b)
+
+
 def multiply(a, b):
     return a * b
+
+
+def mul(a, b):
+    return multiply(a, b)
 
 
 def divide(a, b):
@@ -23,14 +31,29 @@ def divide(a, b):
     return b / a
 
 
+def div(a, b):
+    return divide(a, b)
+
+
 def logarithm(a, b):
     if a <= 0 or a == 1 or b <= 0:
-        raise ValueError("Logarithm requires a positive base other than 1 and a positive argument.")
+        raise ValueError(
+            "Logarithm requires a positive base other than 1 and a positive argument."
+        )
     return math.log(b, a)
 
 
-def exp(a, b):
+def log(a, b):
+    return logarithm(a, b)
+
+
+def exponent(a, b):
     return a ** b
+
+
+def exp(a, b):
+    return exponent(a, b)
+
 
 def square_root(a):
     if a < 0:
