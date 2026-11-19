@@ -13,11 +13,11 @@ def subtract(a, b):
     return a - b
 
 
-def mul(a, b):
+def multiply(a, b):
     return a * b
 
 
-def div(a, b):
+def divide(a, b):
     if a == 0:
         raise ZeroDivisionError("Cannot divide by zero.")
     return b / a
@@ -29,7 +29,7 @@ def logarithm(a, b):
     return math.log(b, a)
 
 
-def exponent(a, b):
+def exp(a, b):
     return a ** b
 
 def square_root(a):
