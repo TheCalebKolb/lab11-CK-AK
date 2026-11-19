@@ -1,6 +1,6 @@
-#https://github.com/TheCalebKolb/lab11-CK-AK
-#Partner 1: Caleb Kolb
-#Partner 2: Abhishek Kallem
+# https://github.com/TheCalebKolb/lab11-CK-AK
+# Partner 1: Caleb Kolb
+# Partner 2: Abhishek Kallem
 
 import math
 
